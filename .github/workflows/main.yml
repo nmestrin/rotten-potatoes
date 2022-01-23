@@ -23,6 +23,6 @@ jobs:
             push: true
             tags: |
               nmestrin/rotten-potatoes:latest
-              nmestrin/rotten-potatoes: ${{ github.run_number}}
+              nmestrin/rotten-potatoes:${{ github.run_number}}
             
             
